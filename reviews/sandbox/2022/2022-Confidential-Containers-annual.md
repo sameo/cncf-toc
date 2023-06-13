@@ -2,7 +2,12 @@
 
 ## Background
 
-_Summarize project background and high level goals_
+Goals:
+- Allow cloud native application owners to enforce application security requirements
+- Transparent deployment of unmodified containers
+- Support for multiple TEE and hardware platforms
+- A trust model which separates Cloud Service Providers (CSPs) from guest applications
+- Least privilege principles for the Kubernetes Cluster administration capabilities which impact delivering Confidential Computing for guest application or data inside the TEE.
 
 ## DevStats
 
@@ -69,18 +74,34 @@ Red Hat and Rivos):
 
 _What do you know about adoption, and how has this changed since your last review / since you joined Sandbox? If you can list companies that are adopters of your project, please do so._
 
+Cloud Providers (Microsoft, Alibaba, IBM) are pusuring offerings which will include Confidential Containers, they are actively engaged in the community. At recent KubeCon EU Microsoft invited early adopters to sign up to try out confidential containers in Azure.
+
 ## Project Goals
 
 ### Performance
 
 _How has the project performed against its goals since the last review?_
+Taking our last Review as the point we were granted sandbox status we now have a release schedule with release that do deliver enable the use of multiple TEE and hardware platforms to enforce application security requirements with transparent deployment of unmodified containers. 
+
+
 
 ### Current Goals
 
 _What are the current goals of the project? For example, are you working on major new features? Or are you concentrating on adoption or documentation?_
+
+Current Focus on 
+
+- improving CI/CD and release process
+- remove dependance on forks from upstream projects and upstream our requirements
+- focus on delivering Use Case solutions
+
 
 ## How Can CNCF Help the Project?
 
 ## Incubation Criteria
 
 _Do you think that your project meets the criteria for [incubation](https://github.com/cncf/toc/blob/main/process/graduation_criteria.md#incubating-stage)?_
+
+We have further work to do to reach the adopter threshold for incubation which we would currently expect to achieve
+
+Clearly documented security processes explaining how to report security issues to the project, and describing how the project provides updated releases or patches to resolve security vulnerabilities
