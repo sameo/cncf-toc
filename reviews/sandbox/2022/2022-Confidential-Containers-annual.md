@@ -41,7 +41,29 @@ These charts and statistics show a few interesting points:
 
 ## Maintainers
 
-_How many maintainers do you have, and which organisations are they from? (Feel free to link to an existing MAINTAINERS file if appropriate.)_
+The Confidential Containers project maintainership structure is defined as
+follows:
+
+* Each sub-project has its own list of maintainers, tracked through both a
+  per-repo MAINTAINERS file and a corresponding GitHub team. We have multiple
+  instances of individuals maintaining several sub-projects.
+* A Technical Steering Committee (TSC) provides decision-making and strategic
+  oversight for the project.
+
+The [TSC](https://github.com/confidential-containers/community/blob/main/MAINTAINERS)
+is composed of individuals from multiple companies (Alibaba, AMD, IBM, Intel,
+Red Hat and Rivos):
+
+- [@ariel-adam](https://github.com/ariel-adam), Ariel Adam, RedHat
+- [@bpradipt](https://github.com/bpradipt), Pradipta Banerjee, IBM
+- [@dcmiddle](https://github.com/dcmiddle), Dan Middleton, Intel
+- [@fitzthum](https://github.com/fitzthum), Tobin Feldman-Fitzthum, IBM
+- [@jiazhang0](https://github.com/jiazhang0), Zhang Jia, Alibaba
+- [@jiangliu](https://github.com/jiangliu), Jiang Liu, Alibaba
+- [@larrydewey](https://github.com/larrydewey), Larry Dewey, AMD
+- [@magowan](https://github.com/magowan), James Magowan, IBM
+- [@peterzcst](https://github.com/peterzcst), Peter Zhu, Intel
+- [@sameo](https://github.com/sameo), Samuel Ortiz, Rivos
 
 ## Adoption
 
